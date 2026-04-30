@@ -1,0 +1,545 @@
+DEBUG - 2026-04-29 12:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-29 13:47:26 --> Error: Call to undefined function usuario_logado()
+[Method: GET, Route: admin/usuarios/editar/1]
+in APPPATH/Views/Admin/Usuarios/form.php on line 38.
+ 1 SYSTEMPATH/View/View.php(240): include()
+ 2 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/View/View.php(489): CodeIgniter\View\View->render()
+ 4 APPPATH/Views/Admin/Usuarios/editar.php(31): CodeIgniter\View\View->include()
+ 5 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/editar.php')
+ 6 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 8 APPPATH/Controllers/Admin/Usuarios.php(75): view()
+ 9 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Admin\Usuarios->editar()
+10 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/vncs/Desktop/refebi-data/public/index.php')
+DEBUG - 2026-04-29 13:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-29 13:49:27 --> Error: Call to a member function pegaUsuarioLogado() on null
+[Method: GET, Route: admin/usuarios/editar/1]
+in APPPATH/Helpers/autenticacao_helper.php on line 7.
+ 1 APPPATH/Views/Admin/Usuarios/form.php(38): usuario_logado()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/form.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(489): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/Admin/Usuarios/editar.php(31): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/editar.php')
+ 7 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Admin/Usuarios.php(75): view()
+10 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Admin\Usuarios->editar()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+16 SYSTEMPATH/rewrite.php(44): require_once('/home/vncs/Desktop/refebi-data/public/index.php')
+DEBUG - 2026-04-29 13:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-29 13:49:27 --> Error: Call to a member function pegaUsuarioLogado() on null
+[Method: GET, Route: admin/usuarios/editar/1]
+in APPPATH/Helpers/autenticacao_helper.php on line 7.
+ 1 APPPATH/Views/Admin/Usuarios/form.php(38): usuario_logado()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/form.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(489): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/Admin/Usuarios/editar.php(31): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/editar.php')
+ 7 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Admin/Usuarios.php(75): view()
+10 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Admin\Usuarios->editar()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+16 SYSTEMPATH/rewrite.php(44): require_once('/home/vncs/Desktop/refebi-data/public/index.php')
+DEBUG - 2026-04-29 13:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-29 13:49:28 --> Error: Call to a member function pegaUsuarioLogado() on null
+[Method: GET, Route: admin/usuarios/editar/1]
+in APPPATH/Helpers/autenticacao_helper.php on line 7.
+ 1 APPPATH/Views/Admin/Usuarios/form.php(38): usuario_logado()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/form.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(489): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/Admin/Usuarios/editar.php(31): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/editar.php')
+ 7 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Admin/Usuarios.php(75): view()
+10 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Admin\Usuarios->editar()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+16 SYSTEMPATH/rewrite.php(44): require_once('/home/vncs/Desktop/refebi-data/public/index.php')
+DEBUG - 2026-04-29 13:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-29 13:51:06 --> Error: Call to a member function pegaUsuarioLogado() on null
+[Method: GET, Route: admin/usuarios/editar/1]
+in APPPATH/Helpers/autenticacao_helper.php on line 7.
+ 1 APPPATH/Views/Admin/Usuarios/form.php(38): usuario_logado()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/form.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(489): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/Admin/Usuarios/editar.php(31): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/editar.php')
+ 7 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Admin/Usuarios.php(75): view()
+10 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Admin\Usuarios->editar()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+16 SYSTEMPATH/rewrite.php(44): require_once('/home/vncs/Desktop/refebi-data/public/index.php')
+DEBUG - 2026-04-29 13:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-29 13:51:07 --> Error: Call to a member function pegaUsuarioLogado() on null
+[Method: GET, Route: admin/usuarios/editar/1]
+in APPPATH/Helpers/autenticacao_helper.php on line 7.
+ 1 APPPATH/Views/Admin/Usuarios/form.php(38): usuario_logado()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/form.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(489): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/Admin/Usuarios/editar.php(31): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/editar.php')
+ 7 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Admin/Usuarios.php(75): view()
+10 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Admin\Usuarios->editar()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+16 SYSTEMPATH/rewrite.php(44): require_once('/home/vncs/Desktop/refebi-data/public/index.php')
+DEBUG - 2026-04-29 13:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-29 13:51:07 --> Error: Call to a member function pegaUsuarioLogado() on null
+[Method: GET, Route: admin/usuarios/editar/1]
+in APPPATH/Helpers/autenticacao_helper.php on line 7.
+ 1 APPPATH/Views/Admin/Usuarios/form.php(38): usuario_logado()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/form.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(489): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/Admin/Usuarios/editar.php(31): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/editar.php')
+ 7 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Admin/Usuarios.php(75): view()
+10 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Admin\Usuarios->editar()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+16 SYSTEMPATH/rewrite.php(44): require_once('/home/vncs/Desktop/refebi-data/public/index.php')
+DEBUG - 2026-04-29 13:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-29 13:51:08 --> Error: Call to a member function pegaUsuarioLogado() on null
+[Method: GET, Route: admin/usuarios/editar/1]
+in APPPATH/Helpers/autenticacao_helper.php on line 7.
+ 1 APPPATH/Views/Admin/Usuarios/form.php(38): usuario_logado()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/form.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(489): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/Admin/Usuarios/editar.php(31): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/editar.php')
+ 7 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Admin/Usuarios.php(75): view()
+10 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Admin\Usuarios->editar()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+16 SYSTEMPATH/rewrite.php(44): require_once('/home/vncs/Desktop/refebi-data/public/index.php')
+DEBUG - 2026-04-29 13:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-29 13:51:08 --> Error: Call to a member function pegaUsuarioLogado() on null
+[Method: GET, Route: admin/usuarios/editar/1]
+in APPPATH/Helpers/autenticacao_helper.php on line 7.
+ 1 APPPATH/Views/Admin/Usuarios/form.php(38): usuario_logado()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/form.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(489): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/Admin/Usuarios/editar.php(31): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/editar.php')
+ 7 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Admin/Usuarios.php(75): view()
+10 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Admin\Usuarios->editar()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+16 SYSTEMPATH/rewrite.php(44): require_once('/home/vncs/Desktop/refebi-data/public/index.php')
+DEBUG - 2026-04-29 13:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-29 13:51:08 --> Error: Call to a member function pegaUsuarioLogado() on null
+[Method: GET, Route: admin/usuarios/editar/1]
+in APPPATH/Helpers/autenticacao_helper.php on line 7.
+ 1 APPPATH/Views/Admin/Usuarios/form.php(38): usuario_logado()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/form.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(489): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/Admin/Usuarios/editar.php(31): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/editar.php')
+ 7 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Admin/Usuarios.php(75): view()
+10 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Admin\Usuarios->editar()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+16 SYSTEMPATH/rewrite.php(44): require_once('/home/vncs/Desktop/refebi-data/public/index.php')
+DEBUG - 2026-04-29 13:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-29 13:52:57 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: admin/usuarios/editar/1]
+in APPPATH/Views/Admin/Usuarios/form.php on line 38.
+ 1 APPPATH/Views/Admin/Usuarios/form.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/form.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(489): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/Admin/Usuarios/editar.php(31): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/editar.php')
+ 7 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Admin/Usuarios.php(75): view()
+10 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Admin\Usuarios->editar()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+16 SYSTEMPATH/rewrite.php(44): require_once('/home/vncs/Desktop/refebi-data/public/index.php')
+DEBUG - 2026-04-29 13:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-29 13:52:58 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: admin/usuarios/editar/1]
+in APPPATH/Views/Admin/Usuarios/form.php on line 38.
+ 1 APPPATH/Views/Admin/Usuarios/form.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/form.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(489): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/Admin/Usuarios/editar.php(31): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/editar.php')
+ 7 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Admin/Usuarios.php(75): view()
+10 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Admin\Usuarios->editar()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+16 SYSTEMPATH/rewrite.php(44): require_once('/home/vncs/Desktop/refebi-data/public/index.php')
+DEBUG - 2026-04-29 13:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-29 13:52:58 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: admin/usuarios/editar/1]
+in APPPATH/Views/Admin/Usuarios/form.php on line 38.
+ 1 APPPATH/Views/Admin/Usuarios/form.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/form.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(489): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/Admin/Usuarios/editar.php(31): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/editar.php')
+ 7 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Admin/Usuarios.php(75): view()
+10 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Admin\Usuarios->editar()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+16 SYSTEMPATH/rewrite.php(44): require_once('/home/vncs/Desktop/refebi-data/public/index.php')
+DEBUG - 2026-04-29 13:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-29 13:52:58 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: admin/usuarios/editar/1]
+in APPPATH/Views/Admin/Usuarios/form.php on line 38.
+ 1 APPPATH/Views/Admin/Usuarios/form.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/form.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(489): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/Admin/Usuarios/editar.php(31): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/editar.php')
+ 7 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Admin/Usuarios.php(75): view()
+10 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Admin\Usuarios->editar()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+16 SYSTEMPATH/rewrite.php(44): require_once('/home/vncs/Desktop/refebi-data/public/index.php')
+DEBUG - 2026-04-29 13:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-29 13:52:58 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: admin/usuarios/editar/1]
+in APPPATH/Views/Admin/Usuarios/form.php on line 38.
+ 1 APPPATH/Views/Admin/Usuarios/form.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/form.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(489): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/Admin/Usuarios/editar.php(31): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/editar.php')
+ 7 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Admin/Usuarios.php(75): view()
+10 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Admin\Usuarios->editar()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+16 SYSTEMPATH/rewrite.php(44): require_once('/home/vncs/Desktop/refebi-data/public/index.php')
+DEBUG - 2026-04-29 13:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-29 13:52:58 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: admin/usuarios/editar/1]
+in APPPATH/Views/Admin/Usuarios/form.php on line 38.
+ 1 APPPATH/Views/Admin/Usuarios/form.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/form.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(489): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/Admin/Usuarios/editar.php(31): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/editar.php')
+ 7 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Admin/Usuarios.php(75): view()
+10 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Admin\Usuarios->editar()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+16 SYSTEMPATH/rewrite.php(44): require_once('/home/vncs/Desktop/refebi-data/public/index.php')
+DEBUG - 2026-04-29 13:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-29 13:53:26 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: admin/usuarios/editar/1]
+in APPPATH/Views/Admin/Usuarios/form.php on line 38.
+ 1 APPPATH/Views/Admin/Usuarios/form.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/form.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(489): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/Admin/Usuarios/editar.php(31): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/editar.php')
+ 7 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Admin/Usuarios.php(75): view()
+10 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Admin\Usuarios->editar()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+16 SYSTEMPATH/rewrite.php(44): require_once('/home/vncs/Desktop/refebi-data/public/index.php')
+DEBUG - 2026-04-29 13:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:58:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:58:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-29 13:59:34 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: admin/usuarios/editar/2]
+in APPPATH/Views/Admin/Usuarios/form.php on line 38.
+ 1 APPPATH/Views/Admin/Usuarios/form.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/form.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(489): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/Admin/Usuarios/editar.php(31): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/editar.php')
+ 7 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Admin/Usuarios.php(75): view()
+10 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Admin\Usuarios->editar()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+16 SYSTEMPATH/rewrite.php(44): require_once('/home/vncs/Desktop/refebi-data/public/index.php')
+DEBUG - 2026-04-29 14:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-29 14:00:42 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: admin/usuarios/editar/2]
+in APPPATH/Views/Admin/Usuarios/form.php on line 38.
+ 1 APPPATH/Views/Admin/Usuarios/form.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/form.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(489): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/Admin/Usuarios/editar.php(31): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/editar.php')
+ 7 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Admin/Usuarios.php(75): view()
+10 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Admin\Usuarios->editar()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+16 SYSTEMPATH/rewrite.php(44): require_once('/home/vncs/Desktop/refebi-data/public/index.php')
+DEBUG - 2026-04-29 14:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-29 14:00:43 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: admin/usuarios/editar/2]
+in APPPATH/Views/Admin/Usuarios/form.php on line 38.
+ 1 APPPATH/Views/Admin/Usuarios/form.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/form.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(489): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/Admin/Usuarios/editar.php(31): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/editar.php')
+ 7 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Admin/Usuarios.php(75): view()
+10 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Admin\Usuarios->editar()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+16 SYSTEMPATH/rewrite.php(44): require_once('/home/vncs/Desktop/refebi-data/public/index.php')
+DEBUG - 2026-04-29 14:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-29 14:00:43 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: admin/usuarios/editar/2]
+in APPPATH/Views/Admin/Usuarios/form.php on line 38.
+ 1 APPPATH/Views/Admin/Usuarios/form.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/form.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(489): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/Admin/Usuarios/editar.php(31): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/editar.php')
+ 7 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Admin/Usuarios.php(75): view()
+10 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Admin\Usuarios->editar()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+16 SYSTEMPATH/rewrite.php(44): require_once('/home/vncs/Desktop/refebi-data/public/index.php')
+DEBUG - 2026-04-29 14:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-29 14:00:43 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: admin/usuarios/editar/2]
+in APPPATH/Views/Admin/Usuarios/form.php on line 38.
+ 1 APPPATH/Views/Admin/Usuarios/form.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/form.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(489): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/Admin/Usuarios/editar.php(31): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/editar.php')
+ 7 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Admin/Usuarios.php(75): view()
+10 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Admin\Usuarios->editar()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+16 SYSTEMPATH/rewrite.php(44): require_once('/home/vncs/Desktop/refebi-data/public/index.php')
+DEBUG - 2026-04-29 14:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-29 14:00:43 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: admin/usuarios/editar/2]
+in APPPATH/Views/Admin/Usuarios/form.php on line 38.
+ 1 APPPATH/Views/Admin/Usuarios/form.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/form.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(489): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/Admin/Usuarios/editar.php(31): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/editar.php')
+ 7 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Admin/Usuarios.php(75): view()
+10 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Admin\Usuarios->editar()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+16 SYSTEMPATH/rewrite.php(44): require_once('/home/vncs/Desktop/refebi-data/public/index.php')
+DEBUG - 2026-04-29 14:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-29 14:00:44 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: admin/usuarios/editar/2]
+in APPPATH/Views/Admin/Usuarios/form.php on line 38.
+ 1 APPPATH/Views/Admin/Usuarios/form.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/form.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(489): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/Admin/Usuarios/editar.php(31): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/editar.php')
+ 7 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Admin/Usuarios.php(75): view()
+10 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Admin\Usuarios->editar()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+16 SYSTEMPATH/rewrite.php(44): require_once('/home/vncs/Desktop/refebi-data/public/index.php')
+DEBUG - 2026-04-29 14:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-29 14:00:44 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: admin/usuarios/editar/2]
+in APPPATH/Views/Admin/Usuarios/form.php on line 38.
+ 1 APPPATH/Views/Admin/Usuarios/form.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/form.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(489): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/Admin/Usuarios/editar.php(31): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/editar.php')
+ 7 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Admin/Usuarios.php(75): view()
+10 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Admin\Usuarios->editar()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+16 SYSTEMPATH/rewrite.php(44): require_once('/home/vncs/Desktop/refebi-data/public/index.php')
+DEBUG - 2026-04-29 14:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-29 14:00:46 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: admin/usuarios/editar/2]
+in APPPATH/Views/Admin/Usuarios/form.php on line 38.
+ 1 APPPATH/Views/Admin/Usuarios/form.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/form.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(489): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/Admin/Usuarios/editar.php(31): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(240): include('/home/vncs/Desktop/refebi-data/app/Views/Admin/Usuarios/editar.php')
+ 7 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Admin/Usuarios.php(75): view()
+10 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Admin\Usuarios->editar()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+16 SYSTEMPATH/rewrite.php(44): require_once('/home/vncs/Desktop/refebi-data/public/index.php')
+DEBUG - 2026-04-29 14:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 14:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 14:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-04-29 14:09:38 --> CSRF token verified.
+DEBUG - 2026-04-29 14:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
