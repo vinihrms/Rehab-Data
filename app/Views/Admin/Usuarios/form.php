@@ -39,16 +39,20 @@
 
 <div class="form-check form-check-flat form-check-primary mb-4">
     <input type="hidden" value="0" name="ativo">
-
-    <input type="checkbox" class="form-check-input" id="ativo" name="ativo" value="1" <?php if(old('ativo', ($usuario->ativo ?? 0))): ?> checked <?php endif?>>
-    <label for="ativo" class="form-check-label">Ativo</label>
+    <label class="form-check-label">
+        <input type="checkbox" class="form-check-input" id="ativo" name="ativo" value="1" <?php if(old('ativo', ($usuario->ativo ?? 0))): ?> checked <?php endif?>>
+        <i class="input-helper"></i>
+        Ativo
+    </label>
 </div>
 
 <div class="form-check form-check-flat form-check-primary mb-4">
     <input type="hidden" value="0" name="is_admin">
-
-    <input type="checkbox" class="form-check-input" id="is_admin" name="is_admin" value="1" <?php if(old('is_admin', ($usuario->admin ?? 0))): ?> checked <?php endif?>>
-    <label for="is_admin" class="form-check-label">Administrador</label>
+    <label class="form-check-label">
+        <input type="checkbox" class="form-check-input" id="is_admin" name="is_admin" value="1" <?php if(old('is_admin', ($usuario->admin ?? 0))): ?> checked <?php endif?>>
+        <i class="input-helper"></i>
+        Administrador
+    </label>
 </div>
 
 <?php endif; ?>
